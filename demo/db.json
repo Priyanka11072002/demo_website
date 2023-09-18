@@ -1,0 +1,99 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "name": "John",
+      "country": "India",
+      "comment": "I am John",
+      "tandc": true
+    },
+    {
+      "id": 2,
+      "name": "Andy",
+      "country": "US",
+      "comment": "This is Andy",
+      "tandc": true
+    },
+    {
+      "id": 3,
+      "name": "Rozer",
+      "country": "India",
+      "comment": "I am Rozer",
+      "tandc": true
+    },
+    {
+      "id": 4,
+      "name": "Daniel",
+      "country": "US",
+      "comment": "I am Daniel",
+      "tandc": true
+    },
+    {
+      "id": "5",
+      "name": "Roy",
+      "country": "India",
+      "comment": "I am Roy",
+      "tandc": true
+    }
+  ],
+  "Todos": [
+    {
+      "id": "7d5336be-bf94-a80b-56e3-6b894a41d4af",
+      "title": "edit ho gya hureeee!"
+    },
+    {
+      "id": "9d9ffb1d-8e28-a64c-f251-7fd8a81ddf57",
+      "title": "add ho gya"
+    },
+    {
+      "id": "9105a52e-392e-020f-f480-dae99f6d6a96",
+      "title": "add ho gya"
+    },
+    {
+      "id": "1582eeaa-2924-a65e-d6c7-9490619cbe92",
+      "title": "add ho gya"
+    },
+    {
+      "id": "1d0ab458-99c5-c560-f1c3-a88fa96c12f9",
+      "title": "add ho gya"
+    },
+    {
+      "id": "a569cdcb-60d4-01b8-59bd-14d6d18065ea",
+      "title": "add ho gya"
+    },
+    {
+      "id": "061640e8-af6d-1217-41aa-9c144cb6bcc1",
+      "title": "add ho gya"
+    }
+  ],
+  "students":[{
+ "id":0,
+ "studentName":"priyanka",
+"address":"delhi",
+"contact":8810320087
+
+
+  },{
+    "id":1,
+    "studentName":"pooja",
+   "address":"gujarat",
+   "contact":88103208889
+   
+   
+     },{
+      "id":2,
+      "studentName":"nisha",
+     "address":"haryana",
+     "contact":8810320087
+     
+     
+       },{
+        "id":3,
+        "studentName":"anjali",
+       "address":"mumbai",
+       "contact":8810320087
+       
+       
+         }
+]
+}

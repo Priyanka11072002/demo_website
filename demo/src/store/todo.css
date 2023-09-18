@@ -1,0 +1,122 @@
+
+
+.todo_container{
+
+width: 100%;
+height: 100vh;
+background-color: rgb(14, 14, 14) !important;
+transition: background-image 300ms;
+     font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.todo_content{
+    width: 500px;
+    height: 475px;
+    border-radius: 10px;
+    padding: 20px 20px 20px 15px;
+    background-image:linear-gradient(to left,rgb(87, 87, 252),rgb(91 200 244)) ;
+
+    
+}
+/* Hide the default scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    visibility: hidden;
+    border-radius: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #567688;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+
+.todo_section{  
+    width: 100%;
+    height: 100%;
+    background-color:rgb(0 0 0 / 76%)!important;
+
+}
+.todo_h3{
+    padding: 20px 0px 10px 0px;
+    text-transform: capitalize;
+    letter-spacing: 0.4px;
+    word-spacing: 0.6px;
+    text-align: center;
+    list-style: none;
+    color: white;
+}
+.todo_form{
+    margin: 5px 50px 15px 50px ;    
+
+}
+.todo_input_container{
+    display: grid;
+    grid-template-columns:75% 25%;
+    margin-bottom:20px;
+
+}
+.todo_input{
+    color: gray;
+    word-spacing: 0.6px;
+    letter-spacing: 0.4px;
+  text-align: center;
+  border-color:palevioletred;
+  border-top-left-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
+  transition: border-color ease-in-out 5s;
+
+}
+.todo_input,.todo_add_button:hover{
+    
+ border:2px solid purple;
+ transition: border ease-in 5s;
+
+}
+.todo_add_button{
+border-top-left-radius: 0px !important;
+border-bottom-left-radius: 0px !important;
+border-color:palevioletred !important;
+transition: border-color ease-in-out 5s;
+
+}
+.todo_list_item{
+    width: 100%;
+}
+.todo_listitems{
+    border-radius: 6px;
+    background-color: rgb(35, 35, 244);
+    padding: 7px 7px 7px 12px;
+    border: 1px solid red;
+    color: white;
+ list-style: none;
+ transition: border ease-in 5s;
+}
+.todo_listitems1{
+    background-color: rgb(71, 71, 253);
+    border: 1px solid lawngreen;
+    transition: border ease-in 5s;
+}
+.todo_icon{
+    float: right;
+    /* margin-right: 25px; */
+    color: white;
+}
+.todo_icon .edit:hover{
+ color:lightgreen
+}
